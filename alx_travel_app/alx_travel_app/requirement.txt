@@ -1,0 +1,52 @@
+# ----------------------------------------
+# Core Django Project Dependencies
+# ----------------------------------------
+Django==4.2.7
+djangorestframework==3.15.1
+mysqlclient==2.2.4
+django-environ==0.11.2
+django-cors-headers==4.3.1
+drf-yasg==1.21.7
+
+# ----------------------------------------
+# Asynchronous Task Queue
+# ----------------------------------------
+celery==5.3.4
+redis==5.0.1
+
+# ----------------------------------------
+# 🛠 Developer Tools
+# ----------------------------------------
+black==24.3.0              # Formatter
+flake8==7.0.0              # Linter
+coverage==7.4.4            # Test coverage
+pytest==8.1.1              # Core testing framework
+pytest-django==4.8.0       # Django test integration
+ipython==8.24.0            # Rich shell
+python-dotenv==1.0.1       # .env loader (optional)
+django-extensions==3.2.3   # Shell plus and other dev tools
+
+# ----------------------------------------
+# Test Data Generation
+# ----------------------------------------
+factory-boy==3.3.0
+model-bakery==1.16.0
+
+# ----------------------------------------
+# API Helpers
+# ----------------------------------------
+django-filter==24.2        # Filtering in views
+drf-nested-routers==0.93.5 # Nested API routing
+
+# ----------------------------------------
+# Auth & Security (Optional but Good)
+# ----------------------------------------
+djangorestframework-simplejwt==5.3.1
+bcrypt==4.1.2
+django-csp==3.8            # Content-Security-Policy headers
+
+# ----------------------------------------
+# Debugging (DEV ONLY)
+# ----------------------------------------
+django-debug-toolbar==4.3.0
+
